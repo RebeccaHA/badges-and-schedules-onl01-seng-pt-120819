@@ -16,7 +16,7 @@ end
 
 def printer(attendees)
   attendees.each do |print|
-    p "#{batch_badge_creator.first} + #{assign_rooms.first}"
+    p "print"
   end
 end
   
