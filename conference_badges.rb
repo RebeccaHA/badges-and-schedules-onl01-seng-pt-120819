@@ -15,10 +15,10 @@ def assign_rooms(speaker)
 end
 
 def printer(attendees)
- batch_badge_creator.each do|a|
+ batch_badge_creator(attendees).each do|a|
    p a
  end
-   assign_rooms.each do|a|
+   assign_rooms(attendees).each do|a|
    p a
   end
 end
